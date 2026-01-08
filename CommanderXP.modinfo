@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cxp-commander-xp-adjuster" version="4" xmlns="ModInfo">
+  <Properties>
+    <Name>Commander XP Adjuster</Name>
+    <Description>Allows for increasing the commander XP generation rate by increments of 25% up to 400%.</Description>
+    <Teaser>Adjust XP rates for various Commander types.</Teaser>
+    <Authors>NickSt</Authors>
+    <Version>2.1.0</Version>
+    <Package>Mod</Package>
+    <SpecialThanks>The Civ 7 Modding Community</SpecialThanks>
+    <AffectsSavedGames>1</AffectsSavedGames>
+  </Properties>
+
+  <ActionCriteria>
+    <Criteria id="always">
+      <AlwaysMet/>
+    </Criteria>
+  </ActionCriteria>
+
+  <ActionGroups>
+    <!-- shell scope for UI and Options -->
+    <ActionGroup id="cxp-shell-actions" scope="shell" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>ui/options/mod-options.js</Item>
+          <Item>ui/options/cxp-options.js</Item>
+        </UIScripts>
+        <UpdateText>
+          <Item>Text.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+    
+    <!-- game scope for active gameplay logic -->
+    <ActionGroup id="cxp-gameplay-actions" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>ui/options/mod-options.js</Item>
+          <Item>ui/options/cxp-options.js</Item>
+          <Item>ui/options/cxp-game-sync.js</Item>
+        </UIScripts>
+        <UpdateDatabase>
+          <Item>Gameplay.sql</Item>
+        </UpdateDatabase>
+        <UpdateText>
+          <Item>Text.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+  </ActionGroups>
+
+  <LocalizedText>
+    <File>Text.xml</File>
+  </LocalizedText>
+</Mod>

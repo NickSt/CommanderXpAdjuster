@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <LocalizedText>
+    <!-- Option Titles -->
+    <Replace Tag="LOC_CXP_OPTIONS_TITLE" Language="en_US">
+      <Text>Commander XP Adjuster</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_OPTIONS_DESC" Language="en_US">
+      <Text>Settings for the Commander XP Adjuster mod.</Text>
+    </Replace>
+
+    <!-- Commander Types -->
+    <Replace Tag="LOC_CXP_PARAM_GLOBAL" Language="en_US">
+      <Text>Global XP Rate (All Commanders)</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_GLOBAL_DESC" Language="en_US">
+      <Text>Adjust the experience gain rate for ALL commander types at once.</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_ARMY" Language="en_US">
+      <Text>Army Commander XP Rate</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_ARMY_DESC" Language="en_US">
+      <Text>Adjust the experience gain rate for Army Commanders.</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_FLEET" Language="en_US">
+      <Text>Fleet Commander XP Rate</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_FLEET_DESC" Language="en_US">
+      <Text>Adjust the experience gain rate for Fleet Commanders.</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_AIR_SQUADRON" Language="en_US">
+      <Text>Air Squadron Leader XP Rate</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_AIR_SQUADRON_DESC" Language="en_US">
+      <Text>Adjust the experience gain rate for Air Squadron Leaders.</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_AERODROME" Language="en_US">
+      <Text>Aerodrome Commander XP Rate</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_AERODROME_DESC" Language="en_US">
+      <Text>Adjust the experience gain rate for Aerodrome Commanders.</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_OTHER" Language="en_US">
+      <Text>Other Commander XP Rate</Text>
+    </Replace>
+    <Replace Tag="LOC_CXP_PARAM_OTHER_DESC" Language="en_US">
+      <Text>Adjust the experience gain rate for other Commander types (e.g. Great People).</Text>
+    </Replace>
+
+    <!-- XP Rate Values -->
+    <Replace Tag="LOC_CXP_XP_0" Language="en_US"><Text>Default (100%)</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_25" Language="en_US"><Text>+25% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_50" Language="en_US"><Text>+50% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_75" Language="en_US"><Text>+75% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_100" Language="en_US"><Text>+100% Speed (2x)</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_125" Language="en_US"><Text>+125% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_150" Language="en_US"><Text>+150% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_175" Language="en_US"><Text>+175% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_200" Language="en_US"><Text>+200% Speed (3x)</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_225" Language="en_US"><Text>+225% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_250" Language="en_US"><Text>+250% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_275" Language="en_US"><Text>+275% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_300" Language="en_US"><Text>+300% Speed (4x)</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_325" Language="en_US"><Text>+325% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_350" Language="en_US"><Text>+350% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_375" Language="en_US"><Text>+375% Speed</Text></Replace>
+    <Replace Tag="LOC_CXP_XP_400" Language="en_US"><Text>+400% Speed (5x)</Text></Replace>
+
+    <!-- Modifier UI Name -->
+    <Replace Tag="LOC_CXP_MOD_NAME" Language="en_US">
+      <Text>Commander XP Adjuster</Text>
+    </Replace>
+  </LocalizedText>
+</Database>

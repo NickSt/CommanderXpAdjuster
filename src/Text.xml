@@ -48,6 +48,7 @@
     </Replace>
 
     <!-- XP Rate Values -->
+    <Replace Tag="LOC_CXP_USE_GLOBAL" Language="en_US"><Text>Follow Global Setting</Text></Replace>
     <Replace Tag="LOC_CXP_XP_0" Language="en_US"><Text>Default (100%)</Text></Replace>
     <Replace Tag="LOC_CXP_XP_25" Language="en_US"><Text>+25% Speed</Text></Replace>
     <Replace Tag="LOC_CXP_XP_50" Language="en_US"><Text>+50% Speed</Text></Replace>

@@ -9,7 +9,9 @@ const CXP_MOD_ID = "cxp-commander-xp-adjuster";
 function syncCXPSettings() {
     console.warn("CXP [GameSync]: Initializing settings bridge...");
 
-    const globalValue = ModOptions.load(CXP_MOD_ID, "globalXP") || 0;
+    // Default to 0 (100%) if not set
+    const globalVal = ModOptions.load(CXP_MOD_ID, "globalXP");
+    const globalValue = (globalVal !== null) ? globalVal : 0;
 
     const mapping = [
         { opt: "armyXP", param: "CXP_RATE_ARMY" },
@@ -22,9 +24,8 @@ function syncCXPSettings() {
     mapping.forEach(item => {
         let value = ModOptions.load(CXP_MOD_ID, item.opt);
 
-        // Inherit from Global if the individual setting is 0/unset,
-        // but only if Global itself is non-zero.
-        if (value === null || value === 0) {
+        // If value is -1 (Follow Global) or never set (null), use the Global value.
+        if (value === null || value === -1) {
             value = globalValue;
         }
 

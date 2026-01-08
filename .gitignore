@@ -1,2 +1,17 @@
-sample/
+# Build artifacts
 dist/
+sample/
+
+# Gemini/Antigravity metadata
+.gemini/
+.system_generated/
+task.md
+implementation_plan.md
+walkthrough.md
+
+# Windows/IDE artifacts
+[Bb]in/
+[Oo]bj/
+.vs/
+.vscode/
+*.user
